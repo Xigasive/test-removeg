@@ -74,7 +74,7 @@ if uploaded_files:
         
         try:
             input_image = Image.open(uploaded_file).convert("RGBA")
-            output_image = remove(input_image, session=session)
+            output_image = remove(input_image)
 
             # บันทึกในหน่วยความจำ
             buf = io.BytesIO()
