@@ -1,3 +1,7 @@
 streamlit==1.38.0
 rembg==2.0.50
 pillow==10.4.0
+segment-anything
+streamlit-drawable-canvas
+torch
+torchvision
