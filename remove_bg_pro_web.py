@@ -6,7 +6,7 @@ import zipfile
 from datetime import datetime
 
 # API Keys จาก Secrets
-REMOVE_BG_API_KEY = st.secrets.get("tMXpGwthd9CpZpSZF5KoZ9tf", "")
+REMOVE_BG_API_KEY = st.secrets.get("REMOVE_BG_API_KEY", "")
 DEEP_AI_API_KEY = st.secrets.get("DEEP_AI_API_KEY", "")
 
 st.set_page_config(page_title="Remove And Gen by ไมค์โค้ดเถื่อน", layout="wide")
