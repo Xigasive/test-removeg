@@ -1,0 +1,7 @@
+cat > requirements.txt << EOF
+streamlit==1.38.0
+rembg==2.0.50
+pillow==10.4.0
+numpy==1.26.4
+onnxruntime==1.18.0
+EOF
