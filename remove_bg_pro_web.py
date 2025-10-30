@@ -1,6 +1,6 @@
 # remove_bg_pro_web.py
 import streamlit as st
-from rembg import remove, new_session
+# from rembg import remove, new_session
 from PIL import Image
 import io
 import zipfile
