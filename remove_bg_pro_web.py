@@ -9,7 +9,7 @@ from datetime import datetime
 REMOVE_BG_API_KEY = st.secrets.get("REMOVE_BG_API_KEY", "H9Q5FFUH7euSM5xs5QBSneVM")
 DEEP_AI_API_KEY = st.secrets.get("DEEP_AI_API_KEY", "")
 
-st.set_page_config(page_title="Remove BG Pro+", layout="wide")
+st.set_page_config(page_title="Remove And Gen by ไมค์โค้ดเถื่อน", layout="wide")
 st.markdown("<h1 style='text-align:center;'>✂️ Remove BG Pro+ | AI Gen</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align:center;'>ลบพื้นหลังแม่นยำ + สร้างภาพจาก Prompt ฟรี</p>", unsafe_allow_html=True)
 
